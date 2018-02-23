@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ "$PWD" = "$HOME/builds/dmenu" ]; then
+  sudo make clean install
+fi
